@@ -23,6 +23,9 @@ export default function App() {
       case 'bad':
         setBad(options.bad + 1);
         break;
+
+      default:
+        '';
     }
   };
 
